@@ -1,1 +1,137 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  font-size: 15px;
+  background-color: #f2f2f2;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+
+.column-container {
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.column-container figure {
+  margin: 0;
+}
+
+.column-container .column-container__article-h1 {
+  color: #f2f2f2;
+  font-weight: 700;
+  font-family: "Big Shoulders Display";
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.column-container .column-container__article-p {
+  line-height: 1.8rem;
+}
+
+.column-container .botton-learn {
+  background-color: #f2f2f2;
+  display: inline-block;
+  width: 126px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem 1rem 1rem 0rem;
+  border-radius: 30px;
+  border: 2px solid transparent;
+}
+
+.column-container #column-container__sedans {
+  background-color: #e38826;
+  padding: 3.5rem;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.column-container #column-container__sedans .botton-learn #botton-sedans {
+  color: #e38826;
+}
+
+.column-container #column-container__sedans .botton-learn:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  border: solid 2px #f2f2f2;
+  background-color: #e38826;
+}
+
+.column-container #column-container__sedans .botton-learn:hover #botton-sedans {
+  color: #f2f2f2;
+}
+
+.column-container #column-container__suvs {
+  background-color: #006970;
+  padding: 3.5rem;
+}
+
+.column-container #column-container__suvs .botton-learn #botton-suvs {
+  color: #006970;
+}
+
+.column-container #column-container__suvs .botton-learn:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  border: solid 2px #f2f2f2;
+  background-color: #006970;
+}
+
+.column-container #column-container__suvs .botton-learn:hover #botton-suvs {
+  color: #f2f2f2;
+}
+
+.column-container #column-container__luxury {
+  background-color: #004241;
+  padding: 3.5rem;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.column-container #column-container__luxury .botton-learn #botton-luxury {
+  color: #004241;
+}
+
+.column-container #column-container__luxury .botton-learn:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  border: solid 2px #f2f2f2;
+  background-color: #004241;
+}
+
+.column-container #column-container__luxury .botton-learn:hover #botton-luxury {
+  color: #f2f2f2;
+}
+
+@media screen and (min-width: 768px) {
+  .column-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .column-container .botton-learn {
+    margin: 6rem 0rem 1rem 0rem;
+  }
+  .column-container #column-container__sedans {
+    padding: 2.5rem;
+    border-radius: 10px 0px 0px 10px;
+    width: 21%;
+  }
+  .column-container #column-container__suvs {
+    padding: 2rem;
+    width: 21%;
+  }
+  .column-container #column-container__luxury {
+    padding: 2.5rem;
+    border-radius: 0px 10px 10px 0px;
+    width: 21%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
